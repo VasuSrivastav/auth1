@@ -22,7 +22,7 @@ const db = new pg.Client(config);
 db.connect();
 
 const app = express();
-app.set('view engine', 'ejs');
+// app.set('view engine', 'ejs');
 const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
